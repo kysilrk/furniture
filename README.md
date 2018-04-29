@@ -9,4 +9,3 @@ install project
 6. please use pull request functionality to push your changes
 
 
-**be happy :)**
