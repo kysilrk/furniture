@@ -2,5 +2,8 @@
   box-sizing: border-box;
   margin: 0;
 }
-@import url('https://fonts.googleapis.com/css?family=Pacifico&subset=cyrillic');
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800,900|Roboto');
+@media (max-width: 600px) {
+  body {
+    width: 460px; }
+}
+@import url('https://fonts.googleapis.com/css?family=Neucha|Pacifico&subset=cyrillic');@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800,900|Roboto');
