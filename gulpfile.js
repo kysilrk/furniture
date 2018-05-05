@@ -13,7 +13,7 @@ const gulp       = require('gulp');
   htmlPartial = require('gulp-html-partial');
 
 gulp.task('scss', function(){ // scss task
-	return gulp.src('app/scss/**/*.scss')
+	return gulp.src('app/scss/**/main.scss')
 		.pipe(scss()) // scss to css
 		.pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true })) // prefixes
 		.pipe(gulp.dest('app/css')) // export
