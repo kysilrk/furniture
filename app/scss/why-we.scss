@@ -1,0 +1,33 @@
+.why-we{
+  background-color: #ffd9bb;
+
+  .head-why-we {
+
+    h2 {
+      font-family: 'Pacifico', cursive;
+      //font-weight: bold;
+      //margin-left: 9%;
+      //@media (max-width: 600px) {
+      //    margin-left: 5%;
+      //}
+      text-align: center;
+    }
+    padding: 40px 0;
+  }
+  .why-we-columns {
+    div{
+      padding:10px 25px;
+      h2{
+        font-size: 25px;
+        font-family: 'Neucha', cursive;
+      }
+    img {
+      padding: 15px 0;
+    }
+      p{
+        padding-top: 15px;
+        font-family: 'Roboto', sans-serif;
+      }
+  }
+  }
+}

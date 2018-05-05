@@ -11,6 +11,7 @@
   "dependencies": {
     "animate.css": "^3.6.1",
     "bootstrap": "^4.1.0",
+    "jquery": "^3.3.1",
     "sass-bootstrap-grid-only": "^1.0.3",
     "slick-carousel": "^1.8.1"
   },
