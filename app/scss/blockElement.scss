@@ -1,14 +1,18 @@
 .blockElement {
-  background: url("../img/background1.jpg") center no-repeat;
+  background: url("../img/background3.jpg") center no-repeat;
   height: 700px;
   display: flex;
   flex-direction: column-reverse;
+  //margin-top: -15px;
   .navigationBox {
     height: 500px;
     width: 390px;
     background-color: #e19c51;
     opacity: 0.85;
     margin-left: 9%;
+    @media (max-width: 800px) {
+      margin: 0 auto;
+    }
     .headNavigationBox {
       height: 95px;
       background-color: #fcad5e;
@@ -19,7 +23,6 @@
         font-family: 'Pacifico', cursive;
         font-size: 24px;
         margin-top: 3px;
-
       }
     }
     &:hover {
@@ -52,9 +55,9 @@
           transform: scale(1.05);
           -ms-transform: scale(1.05);
           transition: 0.5s;
+          cursor: pointer;
         }
       }
-
     }
     .footerNavigationBox {
       text-align: center;

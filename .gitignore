@@ -1,7 +1,7 @@
 /node_modules/
 /dist/
 /.git/
-/app/css/
+#/app/css/
 /**/*.psd
 /**/Thumbs.db
 /**/.DS_Store
@@ -9,3 +9,6 @@
 package-lock.json
 #app/img/
 app/video/
+#app/favicon.ico
+#app/img/
+#app/index.html
