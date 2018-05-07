@@ -1,5 +1,5 @@
 .headMenu{
-  margin-top: 15px;
+  //margin-top: 15px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -9,9 +9,14 @@
     li{
       list-style-type: none;
       margin: 0 10px;
+      //background-color: #0c5460;
+      //border:solid black 1px;
+      //padding-bottom: 21px;
+      /* text-align: center; */
+      //padding-top: 10px;
       a{
         text-decoration: none;
-        color: black;
+        color: #212529;
         font-family: 'Roboto', sans-serif;
         font-size: 25px;
 
@@ -21,6 +26,13 @@
         }
       }
     }
+    li:last-child{
+      color:#443b3300;
+    }
+  }
+  div img{
+    margin-top: 1px;
+    margin-bottom: 2px;
   }
 }
 

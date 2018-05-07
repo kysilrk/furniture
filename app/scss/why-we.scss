@@ -1,9 +1,11 @@
-.why-we{
-  background-color: #ffd9bb;
+.why-we {
+  background-color:#dedede ;
+  padding-bottom: 30px;
 
   .head-why-we {
 
     h2 {
+      color: #464646;
       font-family: 'Pacifico', cursive;
       //font-weight: bold;
       //margin-left: 9%;
@@ -15,19 +17,27 @@
     padding: 40px 0;
   }
   .why-we-columns {
-    div{
-      padding:10px 25px;
-      h2{
+    div {
+      padding: 10px 25px;
+      h2 {
         font-size: 25px;
         font-family: 'Neucha', cursive;
+        color: #464646;
       }
-    img {
-      padding: 15px 0;
-    }
-      p{
+      img {
+        padding: 15px 0;
+      }
+      p {
         padding-top: 15px;
         font-family: 'Roboto', sans-serif;
+        color: #464646;
+        @media (max-width: 500px) {
+          visibility:collapse;
+          &:hover p{
+            visibility:visible;
+          }
+        }
       }
-  }
+    }
   }
 }
