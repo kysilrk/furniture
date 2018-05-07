@@ -7,7 +7,7 @@
 /**/.DS_Store
 /.idea
 package-lock.json
-#app/img/
+
 app/video/
 #app/favicon.ico
 #app/img/
