@@ -32,10 +32,8 @@
         font-family: 'Roboto', sans-serif;
         color: #464646;
         @media (max-width: 500px) {
-          visibility:collapse;
-          &:hover p{
-            visibility:visible;
-          }
+          display: none;
+
         }
       }
     }
