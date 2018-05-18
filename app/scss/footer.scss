@@ -1,0 +1,30 @@
+.footer {
+  background-color: #262829;
+  footer {
+
+    height: auto;
+    color: black;
+    padding: 0 5% 3% 5%;
+    @media (max-width: 480px) {
+      padding: 1% 1% 1% 1%;
+    }
+    .upside-footer {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      div {
+        h2 {
+          color: #b1ada5;
+          font-family: 'Pacifico', cursive;
+          text-align: center;
+          margin :25px 0;
+          span{
+            text-decoration: underline;
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
